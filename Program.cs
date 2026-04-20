@@ -382,7 +382,7 @@ namespace NCMDecode
                         case "enable-net":
                             config.EnableNet = true;
                             break;
-                        case "enable-name":
+                        case "custom-name":
                             if (i + 1 < args.Length) config.CustomName = args[++i];
                             break;
                         case "input":
